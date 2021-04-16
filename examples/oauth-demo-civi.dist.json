@@ -1,0 +1,12 @@
+{
+  "title": "OAuth2 Demo",
+  "options": {
+    "urlAuthorize": "http://oauth2-demo.127.0.0.1.nip.io:8001/lockdin/authorize",
+    "urlAccessToken": "http://oauth2-demo.127.0.0.1.nip.io:8001/lockdin/token",
+    "urlResourceOwnerDetails": "{{use_id_token}}",
+    "scopeSeparator": " ",
+    "scopes": [
+      "offline_access"
+    ]
+  }
+}
